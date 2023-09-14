@@ -7,6 +7,4 @@ public class WelcomeBuilder {
         String finalName = name == null ? "Developer": name;
         return String.format(WELCOME_TEMPLATE, finalName);
     }
-
-
 }
